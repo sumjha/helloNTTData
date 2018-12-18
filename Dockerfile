@@ -1,6 +1,6 @@
 FROM java:8
-MAINTAINER sumjha
-LABEL sumjha-cf.
+MAINTAINER sumit jha
+LABEL sumit jha.
 
 ADD MyHttpServer.jar /MyHttpServer.jar
 ADD entrypoint.sh /entrypoint.sh
