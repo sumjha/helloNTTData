@@ -6,6 +6,6 @@ LABEL sumit jha.
 ADD MyHttpServer.jar /MyHttpServer.jar
 ADD entrypoint.sh /entrypoint.sh
 
-EXPOSE 50000
+EXPOSE 80
 
 ENTRYPOINT ["/entrypoint.sh"]
