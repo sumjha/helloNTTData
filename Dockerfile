@@ -1,11 +1,10 @@
-FROM anapsix/alpine-java
+FROM ubuntu:18.04
 
 MAINTAINER sumit jha
 LABEL sumit jha.
 
-ADD MyHttpServer.jar /MyHttpServer.jar
-ADD libhello.so /libhello.so
 ADD a.out /a.out
+ADD a64.out /a64.out
 ADD entrypoint.sh /entrypoint.sh
 
 EXPOSE 80
